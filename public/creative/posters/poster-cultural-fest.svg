@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="auraBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050308"/>
+      <stop offset="50%" stop-color="#191202"/>
+      <stop offset="100%" stop-color="#050302"/>
+    </linearGradient>
+    <linearGradient id="flameGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FACC15"/>
+      <stop offset="50%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#auraBg)"/>
+
+  <!-- Golden Fluid Ribbon Waves -->
+  <path d="M 0 550 C 300 350, 450 700, 800 400 C 1000 200, 1100 300, 1200 150 L 1200 800 L 0 800 Z" fill="#1C1502" opacity="0.8"/>
+  <path d="M 0 500 C 320 280, 480 650, 850 350 C 1020 180, 1120 260, 1200 120" fill="none" stroke="url(#flameGold)" stroke-width="4"/>
+  <path d="M 0 520 C 310 320, 500 680, 870 380 C 1050 210, 1140 290, 1200 160" fill="none" stroke="#FDE047" stroke-width="1.5" stroke-dasharray="6,8" opacity="0.6"/>
+
+  <!-- Radiant Sun Disc -->
+  <g transform="translate(900, 220)">
+    <circle r="120" fill="#2A1E02" stroke="#FACC15" stroke-width="2"/>
+    <circle r="90" fill="none" stroke="#FDE047" stroke-width="1" stroke-dasharray="4,6"/>
+    <circle r="50" fill="url(#flameGold)"/>
+  </g>
+
+  <!-- Typography -->
+  <g transform="translate(120, 160)">
+    <rect width="160" height="30" rx="15" fill="#332402" stroke="#FACC15" stroke-width="1"/>
+    <text x="80" y="20" font-family="monospace" font-size="11" fill="#FACC15" text-anchor="middle" font-weight="bold">
+      CULTURAL CARNIVAL
+    </text>
+
+    <text x="0" y="130" font-family="'Plus Jakarta Sans', sans-serif" font-size="100" font-weight="900" fill="#FFFFFF" letter-spacing="-3">
+      AURA
+    </text>
+    <text x="320" y="130" font-family="'Plus Jakarta Sans', sans-serif" font-size="100" font-weight="900" fill="#FACC15" letter-spacing="-3">
+      '25
+    </text>
+
+    <text x="0" y="190" font-family="'Plus Jakarta Sans', sans-serif" font-size="28" font-weight="700" fill="#FDE047">
+      The Golden Tapestry of Art, Music &amp; Motion
+    </text>
+
+    <text x="0" y="250" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" fill="#D4D4D8">
+      <tspan x="0" dy="0">Featuring 40+ Inter-collegiate competitions, live musical concerts,</tspan>
+      <tspan x="0" dy="28">theatre enactments, and art exhibitions across 3 vibrant days.</tspan>
+    </text>
+
+    <g transform="translate(0, 340)">
+      <rect width="180" height="60" rx="10" fill="#1C1402" stroke="#FACC15" stroke-width="1"/>
+      <text x="20" y="26" font-family="monospace" font-size="11" fill="#A1A1AA">ATTENDANCE</text>
+      <text x="20" y="48" font-family="'Plus Jakarta Sans', sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF">5,000+ Footfall</text>
+
+      <rect x="200" width="180" height="60" rx="10" fill="#1C1402" stroke="#FACC15" stroke-width="1"/>
+      <text x="220" y="26" font-family="monospace" font-size="11" fill="#A1A1AA">EVENTS</text>
+      <text x="220" y="48" font-family="'Plus Jakarta Sans', sans-serif" font-size="18" font-weight="bold" fill="#FACC15">45+ Showcases</text>
+    </g>
+  </g>
+
+  <!-- Footer -->
+  <g transform="translate(120, 720)">
+    <text x="0" y="0" font-family="monospace" font-size="12" fill="#71717A">
+      EVENT CREATIVE LEAD: SUPRIYA SURESH • CANVA &amp; CORELDRAW
+    </text>
+    <text x="960" y="0" font-family="monospace" font-size="12" fill="#FACC15" font-weight="bold" text-anchor="end">
+      SUPRIVERSE POSTER ARCHIVE #04
+    </text>
+  </g>
+</svg>

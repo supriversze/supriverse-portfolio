@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgSymp" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070709"/>
+      <stop offset="45%" stop-color="#141103"/>
+      <stop offset="100%" stop-color="#020203"/>
+    </linearGradient>
+    <linearGradient id="goldGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FACC15"/>
+      <stop offset="60%" stop-color="#CA8A04"/>
+      <stop offset="100%" stop-color="#713F12"/>
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="70%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#FACC15" stop-opacity="0.35"/>
+      <stop offset="60%" stop-color="#EAB308" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="800" fill="url(#bgSymp)"/>
+  <rect width="1200" height="800" fill="url(#sunGlow)"/>
+
+  <!-- Geometric Grid & Editorial Lines -->
+  <g stroke="#FACC15" stroke-width="1" opacity="0.15">
+    <line x1="100" y1="0" x2="100" y2="800"/>
+    <line x1="1100" y1="0" x2="1100" y2="800"/>
+    <line x1="0" y1="120" x2="1200" y2="120"/>
+    <line x1="0" y1="680" x2="1200" y2="680"/>
+  </g>
+
+  <!-- Giant Editorial Typographic Backdrop -->
+  <text x="100" y="270" font-family="'Plus Jakarta Sans', sans-serif" font-size="130" font-weight="900" fill="#FFFFFF" fill-opacity="0.04" letter-spacing="4">
+    SYNAPSE
+  </text>
+  <text x="100" y="380" font-family="'Plus Jakarta Sans', sans-serif" font-size="130" font-weight="900" fill="#FFFFFF" fill-opacity="0.03" letter-spacing="4">
+    SYMPOSIUM
+  </text>
+
+  <!-- Poster Graphic Abstract Composition: Concentric Torus & Waves -->
+  <g transform="translate(760, 400)">
+    <!-- Golden Orbit Rings -->
+    <circle r="220" fill="none" stroke="#FACC15" stroke-width="1.5" stroke-opacity="0.4" stroke-dasharray="12,8"/>
+    <circle r="170" fill="none" stroke="url(#goldGlow)" stroke-width="2.5" stroke-opacity="0.7"/>
+    <circle r="120" fill="#1C1805" stroke="#FACC15" stroke-width="3" stroke-opacity="0.9"/>
+    <circle r="60" fill="url(#goldGlow)"/>
+    
+    <!-- Accent rays -->
+    <line x1="-280" y1="0" x2="280" y2="0" stroke="#FDE047" stroke-width="1.2" opacity="0.5"/>
+    <line x1="0" y1="-280" x2="0" y2="280" stroke="#FDE047" stroke-width="1.2" opacity="0.5"/>
+    <line x1="-200" y1="-200" x2="200" y2="200" stroke="#CA8A04" stroke-width="1" opacity="0.3" stroke-dasharray="4,6"/>
+  </g>
+
+  <!-- Poster Details / Typography Left Side -->
+  <g transform="translate(130, 200)">
+    <!-- Event Badge -->
+    <rect width="180" height="34" rx="17" fill="#282005" stroke="#FACC15" stroke-width="1.2"/>
+    <text x="90" y="22" font-family="monospace" font-size="11" fill="#FACC15" text-anchor="middle" font-weight="bold" letter-spacing="2">
+      ANNUAL EDITION // 2026
+    </text>
+
+    <!-- Main Title -->
+    <text x="0" y="110" font-family="'Plus Jakarta Sans', sans-serif" font-size="64" font-weight="900" fill="#FFFFFF" letter-spacing="-1">
+      SYNAPSE 2026
+    </text>
+    <text x="0" y="160" font-family="'Plus Jakarta Sans', sans-serif" font-size="28" font-weight="600" fill="#FACC15">
+      National Computing &amp; Innovation Summit
+    </text>
+
+    <!-- Description Paragraph -->
+    <text x="0" y="220" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" fill="#A1A1AA" width="450">
+      <tspan x="0" dy="0">A convergence of neural systems, autonomous intelligence, and</tspan>
+      <tspan x="0" dy="26">interactive digital media curated by university student leads.</tspan>
+    </text>
+
+    <!-- Metadata Grid -->
+    <g transform="translate(0, 310)">
+      <text x="0" y="0" font-family="monospace" font-size="12" fill="#71717A">LOCATION</text>
+      <text x="0" y="24" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="bold" fill="#F4F4F5">Auditorium Complex</text>
+
+      <text x="240" y="0" font-family="monospace" font-size="12" fill="#71717A">DATE &amp; TIME</text>
+      <text x="240" y="24" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="bold" fill="#FACC15">March 28-30 • 09:00 IST</text>
+    </g>
+  </g>
+
+  <!-- Editorial Corner Footer -->
+  <g transform="translate(130, 720)">
+    <text x="0" y="0" font-family="monospace" font-size="12" fill="#71717A">
+      POSTER DIRECTION // SUPRIYA SURESH • FIGMA + CORELDRAW
+    </text>
+    <text x="940" y="0" font-family="monospace" font-size="12" fill="#FACC15" font-weight="bold" text-anchor="end">
+      SUPRIVERSE CREATIVE ARCHIVE #01
+    </text>
+  </g>
+</svg>

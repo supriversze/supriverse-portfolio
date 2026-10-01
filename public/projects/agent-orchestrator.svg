@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="agentBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020713"/>
+      <stop offset="60%" stop-color="#08183A"/>
+      <stop offset="100%" stop-color="#01040A"/>
+    </linearGradient>
+    <linearGradient id="neonCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="450" fill="url(#agentBg)"/>
+
+  <!-- Supervisor Node Center -->
+  <g transform="translate(400, 160)">
+    <circle r="44" fill="#0C1E45" stroke="#3B82F6" stroke-width="2"/>
+    <circle r="36" fill="none" stroke="#06B6D4" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <text x="0" y="-6" font-family="monospace" font-size="10" fill="#38BDF8" text-anchor="middle" font-weight="bold">SUPERVISOR</text>
+    <text x="0" y="12" font-family="sans-serif" font-size="12" fill="#FFFFFF" text-anchor="middle" font-weight="bold">AGENT</text>
+  </g>
+
+  <!-- Worker Nodes -->
+  <!-- Worker 1: AST Code Auditor -->
+  <g transform="translate(180, 290)">
+    <circle r="36" fill="#091530" stroke="#2563EB" stroke-width="1.5"/>
+    <text x="0" y="-4" font-family="monospace" font-size="9" fill="#93C5FD" text-anchor="middle">AST AUDIT</text>
+    <text x="0" y="10" font-family="sans-serif" font-size="11" fill="#FFFFFF" text-anchor="middle">Node A</text>
+  </g>
+
+  <!-- Worker 2: Unit Test Synthesizer -->
+  <g transform="translate(400, 340)">
+    <circle r="36" fill="#091530" stroke="#2563EB" stroke-width="1.5"/>
+    <text x="0" y="-4" font-family="monospace" font-size="9" fill="#93C5FD" text-anchor="middle">TEST SYNTH</text>
+    <text x="0" y="10" font-family="sans-serif" font-size="11" fill="#FFFFFF" text-anchor="middle">Node B</text>
+  </g>
+
+  <!-- Worker 3: Sandbox Evaluator -->
+  <g transform="translate(620, 290)">
+    <circle r="36" fill="#091530" stroke="#2563EB" stroke-width="1.5"/>
+    <text x="0" y="-4" font-family="monospace" font-size="9" fill="#93C5FD" text-anchor="middle">EVALUATOR</text>
+    <text x="0" y="10" font-family="sans-serif" font-size="11" fill="#FFFFFF" text-anchor="middle">Node C</text>
+  </g>
+
+  <!-- Connecting Beams -->
+  <g stroke="url(#neonCyan)" stroke-width="2" opacity="0.6">
+    <line x1="365" y1="188" x2="210" y2="265" stroke-dasharray="6,4"/>
+    <line x1="400" y1="204" x2="400" y2="304"/>
+    <line x1="435" y1="188" x2="590" y2="265" stroke-dasharray="6,4"/>
+  </g>
+
+  <!-- Top Status Badge -->
+  <g transform="translate(60, 40)">
+    <rect width="270" height="60" rx="8" fill="#0A152E" stroke="#1E3A8A" stroke-width="1"/>
+    <circle cx="24" cy="30" r="5" fill="#10B981"/>
+    <text x="40" y="27" font-family="monospace" font-size="11" fill="#38BDF8">AGENTIC_ORCHESTRATOR</text>
+    <text x="40" y="45" font-family="sans-serif" font-size="13" fill="#F8FAFC" font-weight="600">3 Autonomous Nodes Synced</text>
+  </g>
+
+  <!-- Bottom Stats Badge -->
+  <g transform="translate(500, 40)">
+    <rect width="240" height="60" rx="8" fill="#0A152E" stroke="#1E3A8A" stroke-width="1"/>
+    <text x="20" y="27" font-family="monospace" font-size="11" fill="#60A5FA">TIME_SAVED: ~65%</text>
+    <text x="20" y="45" font-family="sans-serif" font-size="13" fill="#10B981" font-weight="bold">Unit Test Pass: 98.2%</text>
+  </g>
+</svg>

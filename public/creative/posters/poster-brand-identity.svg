@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="brandBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#04060C"/>
+      <stop offset="50%" stop-color="#121005"/>
+      <stop offset="100%" stop-color="#020305"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#brandBg)"/>
+
+  <!-- Dual Split Visual Architecture -->
+  <line x1="600" y1="80" x2="600" y2="720" stroke="#FFFFFF" stroke-opacity="0.15" stroke-dasharray="6,6"/>
+
+  <!-- Left Side: Technical Core (Blue) -->
+  <g transform="translate(140, 200)">
+    <circle cx="40" cy="40" r="30" fill="#0C1D42" stroke="#2563EB" stroke-width="2"/>
+    <text x="40" y="46" font-family="monospace" font-size="16" fill="#38BDF8" text-anchor="middle" font-weight="bold">01</text>
+
+    <text x="0" y="120" font-family="'Plus Jakarta Sans', sans-serif" font-size="38" font-weight="900" fill="#FFFFFF">
+      TECHNICAL
+    </text>
+    <text x="0" y="155" font-family="monospace" font-size="14" fill="#38BDF8">
+      #2563EB // SYSTEMS &amp; AI
+    </text>
+    <text x="0" y="210" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" fill="#94A3B8" width="340">
+      <tspan x="0" dy="0">Algorithmic precision, machine learning</tspan>
+      <tspan x="0" dy="24">models, robust MERN architectures, and</tspan>
+      <tspan x="0" dy="24">structured engineering discipline.</tspan>
+    </text>
+  </g>
+
+  <!-- Center Signature Monogram -->
+  <g transform="translate(600, 400)">
+    <circle r="90" fill="#0E0D03" stroke="#FACC15" stroke-width="2.5"/>
+    <text x="0" y="22" font-family="'Plus Jakarta Sans', sans-serif" font-size="70" font-weight="900" fill="#FACC15" text-anchor="middle">
+      S
+    </text>
+    <!-- Dual status dots -->
+    <circle cx="-35" cy="-55" r="8" fill="#2563EB"/>
+    <circle cx="35" cy="-55" r="8" fill="#FACC15"/>
+  </g>
+
+  <!-- Right Side: Creative Core (Yellow) -->
+  <g transform="translate(740, 200)">
+    <circle cx="40" cy="40" r="30" fill="#262004" stroke="#FACC15" stroke-width="2"/>
+    <text x="40" y="46" font-family="monospace" font-size="16" fill="#FDE047" text-anchor="middle" font-weight="bold">02</text>
+
+    <text x="0" y="120" font-family="'Plus Jakarta Sans', sans-serif" font-size="38" font-weight="900" fill="#FFFFFF">
+      CREATIVE
+    </text>
+    <text x="0" y="155" font-family="monospace" font-size="14" fill="#FACC15">
+      #FACC15 // VISUALS &amp; DESIGN
+    </text>
+    <text x="0" y="210" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" fill="#D4D4D8" width="340">
+      <tspan x="0" dy="0">Expressive poster composition, Figma UI</tspan>
+      <tspan x="0" dy="24">prototyping, visual storytelling, and</tspan>
+      <tspan x="0" dy="24">collegiate creative direction.</tspan>
+    </text>
+  </g>
+
+  <!-- Header -->
+  <text x="600" y="100" font-family="'Plus Jakarta Sans', sans-serif" font-size="28" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="2">
+    SUPRIVERSE DUAL IDENTITY BRAND EXPLORATION
+  </text>
+  <text x="600" y="130" font-family="monospace" font-size="13" fill="#FACC15" text-anchor="middle">
+    ONE BRAND • TWO PROFESSIONAL SUPERPOWERS
+  </text>
+
+  <!-- Footer -->
+  <g transform="translate(100, 720)">
+    <text x="0" y="0" font-family="monospace" font-size="12" fill="#71717A">
+      DESIGN DIRECTION // SUPRIYA SURESH • BRAND IDENTITY SUITE
+    </text>
+    <text x="1000" y="0" font-family="monospace" font-size="12" fill="#FACC15" font-weight="bold" text-anchor="end">
+      SUPRIVERSE POSTER ARCHIVE #05
+    </text>
+  </g>
+</svg>

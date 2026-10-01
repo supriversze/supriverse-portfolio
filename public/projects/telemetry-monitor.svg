@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="monBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020612"/>
+      <stop offset="50%" stop-color="#081432"/>
+      <stop offset="100%" stop-color="#010308"/>
+    </linearGradient>
+    <linearGradient id="chartStroke" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="50%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="450" fill="url(#monBg)"/>
+
+  <!-- Console Header -->
+  <g transform="translate(60, 50)">
+    <rect width="680" height="350" rx="12" fill="#071126" stroke="#1E3A8A" stroke-width="1.5"/>
+    
+    <!-- Top Bar -->
+    <rect width="680" height="46" rx="12" fill="#0A1838"/>
+    <circle cx="28" cy="23" r="5" fill="#EF4444"/>
+    <circle cx="46" cy="23" r="5" fill="#F59E0B"/>
+    <circle cx="64" cy="23" r="5" fill="#10B981"/>
+    <text x="90" y="27" font-family="monospace" font-size="12" fill="#94A3B8">system_telemetry_live.socket :: 1,200 events/sec</text>
+
+    <!-- Stat boxes -->
+    <g transform="translate(30, 70)">
+      <rect width="180" height="75" rx="8" fill="#0A1530" stroke="#1D4ED8" stroke-width="1"/>
+      <text x="16" y="26" font-family="monospace" font-size="11" fill="#38BDF8">AVG LATENCY</text>
+      <text x="16" y="54" font-family="sans-serif" font-size="22" font-weight="700" fill="#F8FAFC">1.84 ms</text>
+    </g>
+
+    <g transform="translate(250, 70)">
+      <rect width="180" height="75" rx="8" fill="#0A1530" stroke="#1D4ED8" stroke-width="1"/>
+      <text x="16" y="26" font-family="monospace" font-size="11" fill="#38BDF8">DAEMON MEMORY</text>
+      <text x="16" y="54" font-family="sans-serif" font-size="22" font-weight="700" fill="#F8FAFC">32.4 MB</text>
+    </g>
+
+    <g transform="translate(470, 70)">
+      <rect width="180" height="75" rx="8" fill="#0A1530" stroke="#1D4ED8" stroke-width="1"/>
+      <text x="16" y="26" font-family="monospace" font-size="11" fill="#10B981">SYSTEM HEALTH</text>
+      <text x="16" y="54" font-family="sans-serif" font-size="22" font-weight="700" fill="#10B981">99.98%</text>
+    </g>
+
+    <!-- Real-time Sparkline Graph -->
+    <g transform="translate(30, 170)">
+      <rect width="620" height="150" rx="8" fill="#040A18" stroke="#1E293B" stroke-width="1"/>
+      <!-- Grid lines inside chart -->
+      <line x1="0" y1="40" x2="620" y2="40" stroke="#0F1F3D" stroke-width="1"/>
+      <line x1="0" y1="80" x2="620" y2="80" stroke="#0F1F3D" stroke-width="1"/>
+      <line x1="0" y1="120" x2="620" y2="120" stroke="#0F1F3D" stroke-width="1"/>
+      <!-- Sparkline curve -->
+      <path d="M 0 110 Q 50 120 100 85 T 200 95 T 300 45 T 400 70 T 500 30 T 620 60" fill="none" stroke="url(#chartStroke)" stroke-width="3"/>
+      <!-- Pulse dot -->
+      <circle cx="620" cy="60" r="5" fill="#38BDF8"/>
+      <circle cx="620" cy="60" r="10" fill="none" stroke="#38BDF8" opacity="0.6"/>
+    </g>
+  </g>
+</svg>

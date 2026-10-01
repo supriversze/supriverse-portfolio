@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="synAppBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05060A"/>
+      <stop offset="50%" stop-color="#141103"/>
+      <stop offset="100%" stop-color="#020305"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#synAppBg)"/>
+
+  <!-- Left Screen: Stage Timeline Guide -->
+  <g transform="translate(180, 100)">
+    <rect width="360" height="600" rx="36" fill="#0C0E14" stroke="#FACC15" stroke-width="2.5"/>
+    <rect x="130" y="14" width="100" height="18" rx="9" fill="#1C1E26"/>
+    
+    <g transform="translate(26, 60)">
+      <text x="0" y="24" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#FACC15" font-weight="bold">SYNAPSE 2026 STAGE PASS</text>
+      <text x="0" y="52" font-family="'Plus Jakarta Sans', sans-serif" font-size="22" font-weight="800" fill="#FFFFFF">Live Schedule</text>
+
+      <!-- Now Playing Card -->
+      <rect y="75" width="308" height="130" rx="16" fill="#201A04" stroke="#FACC15" stroke-width="1.5"/>
+      <rect x="16" y="16" width="60" height="22" rx="6" fill="#FACC15"/>
+      <text x="46" y="31" font-family="monospace" font-size="10" font-weight="bold" fill="#000000" text-anchor="middle">LIVE NOW</text>
+      <text x="16" y="65" font-family="'Plus Jakarta Sans', sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF">Keynote: Future of AI Agents</text>
+      <text x="16" y="88" font-family="sans-serif" font-size="12" fill="#FDE047">Auditorium Hall A • Dr. Rao</text>
+      <text x="16" y="112" font-family="monospace" font-size="11" fill="#A1A1AA">10:00 - 11:30 IST (45m left)</text>
+
+      <!-- Upcoming Items -->
+      <g transform="translate(0, 225)">
+        <rect width="308" height="80" rx="12" fill="#141720" stroke="#252A36"/>
+        <text x="16" y="30" font-family="monospace" font-size="11" fill="#FACC15">11:45 IST • MAIN ARENA</text>
+        <text x="16" y="55" font-family="sans-serif" font-size="15" font-weight="bold" fill="#FFFFFF">HackForge Sprint Pitching</text>
+
+        <rect y="95" width="308" height="80" rx="12" fill="#141720" stroke="#252A36"/>
+        <text x="16" y="125" font-family="monospace" font-size="11" fill="#A1A1AA">14:00 IST • DESIGN LAB</text>
+        <text x="16" y="150" font-family="sans-serif" font-size="15" font-weight="bold" fill="#FFFFFF">Design Disrupt Showcase</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Right Screen: Interactive Venue Map & QR Badge -->
+  <g transform="translate(620, 100)">
+    <rect width="360" height="600" rx="36" fill="#0C0E14" stroke="#FDE047" stroke-width="2"/>
+    <rect x="130" y="14" width="100" height="18" rx="9" fill="#1C1E26"/>
+
+    <g transform="translate(26, 60)">
+      <text x="0" y="24" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#71717A">ATTENDEE DIGITAL PASS</text>
+      <text x="0" y="52" font-family="'Plus Jakarta Sans', sans-serif" font-size="22" font-weight="800" fill="#FFFFFF">Fast-Track Entry</text>
+
+      <!-- QR Code Simulation -->
+      <rect y="75" width="308" height="240" rx="16" fill="#121004" stroke="#FACC15" stroke-width="1.2"/>
+      <rect x="74" y="95" width="160" height="160" rx="12" fill="#000000" stroke="#FACC15" stroke-width="2"/>
+      <!-- QR Blocks -->
+      <rect x="94" y="115" width="40" height="40" fill="#FACC15"/>
+      <rect x="174" y="115" width="40" height="40" fill="#FACC15"/>
+      <rect x="94" y="195" width="40" height="40" fill="#FACC15"/>
+      <rect x="150" y="170" width="20" height="20" fill="#FACC15"/>
+      <rect x="180" y="200" width="25" height="25" fill="#FACC15"/>
+      <text x="154" y="295" font-family="monospace" font-size="12" fill="#FACC15" text-anchor="middle">PASS #SYN-2026-9481</text>
+
+      <!-- Venue Map Mini Card -->
+      <rect y="335" width="308" height="140" rx="14" fill="#161822" stroke="#252A36"/>
+      <text x="20" y="32" font-family="sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF">Indoor Navigation</text>
+      <text x="20" y="54" font-family="sans-serif" font-size="12" fill="#A1A1AA">Wayfinding to Stage A &amp; Food Court</text>
+      <line x1="20" y1="80" x2="288" y2="80" stroke="#FACC15" stroke-width="2" stroke-dasharray="6,4"/>
+      <circle cx="40" cy="80" r="6" fill="#FACC15"/>
+      <circle cx="270" cy="80" r="6" fill="#10B981"/>
+      <text x="20" y="115" font-family="monospace" font-size="11" fill="#FDE047">Distance: 120m • 2 min walk</text>
+    </g>
+  </g>
+</svg>

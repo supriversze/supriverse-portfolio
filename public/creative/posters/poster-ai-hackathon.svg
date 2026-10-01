@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="noirBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050507"/>
+      <stop offset="50%" stop-color="#111105"/>
+      <stop offset="100%" stop-color="#020202"/>
+    </linearGradient>
+    <linearGradient id="neonGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FACC15"/>
+      <stop offset="100%" stop-color="#FEF08A"/>
+    </linearGradient>
+    <filter id="neonBlur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#noirBg)"/>
+
+  <!-- Matrix Dot Mesh in Yellow -->
+  <g fill="#FACC15" opacity="0.12">
+    <pattern id="dotPattern" x="0" y="0" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="15" cy="15" r="1.5"/>
+    </pattern>
+    <rect width="1200" height="800" fill="url(#dotPattern)"/>
+  </g>
+
+  <!-- Dramatic Cybernetic Diagonal Graphic -->
+  <path d="M 500 0 L 1200 0 L 1200 800 L 750 800 Z" fill="#171403" opacity="0.7"/>
+  <line x1="500" y1="0" x2="750" y2="800" stroke="#FACC15" stroke-width="2.5" filter="url(#neonBlur)"/>
+  <line x1="530" y1="0" x2="780" y2="800" stroke="#EAB308" stroke-width="1" opacity="0.4" stroke-dasharray="8,6"/>
+
+  <!-- Center Graphic: Hackathon Terminal Block -->
+  <g transform="translate(680, 240)">
+    <rect width="420" height="320" rx="14" fill="#0C0B02" stroke="#FACC15" stroke-width="2" filter="url(#neonBlur)"/>
+    <rect x="0" y="0" width="420" height="42" rx="14" fill="#201C04"/>
+    <circle cx="24" cy="21" r="5" fill="#EF4444"/>
+    <circle cx="42" cy="21" r="5" fill="#FACC15"/>
+    <circle cx="60" cy="21" r="5" fill="#10B981"/>
+    <text x="85" y="26" font-family="monospace" font-size="11" fill="#A1A1AA">hackforge_sprint_timer.sh</text>
+
+    <!-- Timer Countdown -->
+    <text x="40" y="110" font-family="monospace" font-size="52" font-weight="900" fill="#FEF08A" letter-spacing="3">
+      36:00:00
+    </text>
+    <text x="40" y="145" font-family="monospace" font-size="14" fill="#FACC15">
+      &gt; SPRINT COMMENCING // 120+ TEAMS
+    </text>
+
+    <!-- Code Block simulation -->
+    <text x="40" y="195" font-family="monospace" font-size="12" fill="#71717A">
+      import agentic_forge as af
+    </text>
+    <text x="40" y="220" font-family="monospace" font-size="12" fill="#CA8A04">
+      af.deploy(solution="real_world_impact")
+    </text>
+    <text x="40" y="265" font-family="sans-serif" font-size="15" font-weight="bold" fill="#FFFFFF">
+      PRIZE POOL: ₹1,50,000 + MENTORSHIP
+    </text>
+  </g>
+
+  <!-- Typography Left Side -->
+  <g transform="translate(110, 180)">
+    <rect width="140" height="28" rx="6" fill="#FACC15"/>
+    <text x="70" y="19" font-family="monospace" font-size="11" fill="#000000" font-weight="900" text-anchor="middle">
+      HACKATHON 2026
+    </text>
+
+    <text x="0" y="105" font-family="'Plus Jakarta Sans', sans-serif" font-size="76" font-weight="900" fill="#FFFFFF" letter-spacing="-2">
+      HACKFORGE
+    </text>
+    <text x="0" y="150" font-family="'Plus Jakarta Sans', sans-serif" font-size="28" font-weight="700" fill="#FACC15">
+      36-Hour National Code Odyssey
+    </text>
+
+    <text x="0" y="210" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" fill="#D4D4D8">
+      <tspan x="0" dy="0">Build Autonomous Agents, Full-Stack Platforms,</tspan>
+      <tspan x="0" dy="28">and Hardware Prototypes in a High-Energy Sprint.</tspan>
+    </text>
+
+    <!-- Tracks Badges -->
+    <g transform="translate(0, 290)">
+      <rect width="130" height="34" rx="8" fill="#1C1905" stroke="#FACC15" stroke-width="1"/>
+      <text x="65" y="22" font-family="sans-serif" font-size="12" fill="#FDE047" text-anchor="middle" font-weight="bold">AI &amp; AGENTS</text>
+
+      <rect x="145" width="130" height="34" rx="8" fill="#1C1905" stroke="#EAB308" stroke-width="1"/>
+      <text x="210" y="22" font-family="sans-serif" font-size="12" fill="#FEF08A" text-anchor="middle" font-weight="bold">WEB3 &amp; CLOUD</text>
+
+      <rect x="290" width="130" height="34" rx="8" fill="#1C1905" stroke="#CA8A04" stroke-width="1"/>
+      <text x="355" y="22" font-family="sans-serif" font-size="12" fill="#FACC15" text-anchor="middle" font-weight="bold">OPEN INNOVATION</text>
+    </g>
+  </g>
+
+  <!-- Footer -->
+  <g transform="translate(110, 720)">
+    <text x="0" y="0" font-family="monospace" font-size="12" fill="#71717A">
+      ORGANIZED BY CAMPUS TECH LEADERSHIP • POSTER ARTWORK BY SUPRIYA SURESH
+    </text>
+    <text x="980" y="0" font-family="monospace" font-size="12" fill="#FACC15" font-weight="bold" text-anchor="end">
+      SUPRIVERSE POSTER ARCHIVE #02
+    </text>
+  </g>
+</svg>

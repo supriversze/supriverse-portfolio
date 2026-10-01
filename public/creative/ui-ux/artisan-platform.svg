@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="artBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090708"/>
+      <stop offset="60%" stop-color="#161204"/>
+      <stop offset="100%" stop-color="#040304"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#artBg)"/>
+
+  <!-- Web Browser Frame Mockup -->
+  <g transform="translate(100, 100)">
+    <rect width="1000" height="600" rx="20" fill="#0C0E14" stroke="#FACC15" stroke-width="1.5"/>
+    <rect width="1000" height="48" rx="20" fill="#181B22"/>
+    <circle cx="28" cy="24" r="5" fill="#EF4444"/>
+    <circle cx="46" cy="24" r="5" fill="#FACC15"/>
+    <circle cx="64" cy="24" r="5" fill="#10B981"/>
+    <rect x="110" y="10" width="400" height="28" rx="8" fill="#090B10"/>
+    <text x="130" y="28" font-family="monospace" font-size="12" fill="#71717A">https://kala-posters.design/explore</text>
+
+    <!-- Header inside web app -->
+    <g transform="translate(40, 75)">
+      <text x="0" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-size="28" font-weight="900" fill="#FFFFFF">KALA.</text>
+      <text x="95" y="28" font-family="monospace" font-size="12" fill="#FACC15">// ARTISAN &amp; POSTER COMMERCE</text>
+
+      <!-- Category Pills -->
+      <g transform="translate(420, 12)">
+        <rect width="70" height="30" rx="15" fill="#FACC15"/>
+        <text x="35" y="20" font-family="sans-serif" font-size="11" font-weight="bold" fill="#000000" text-anchor="middle">All Art</text>
+
+        <rect x="80" width="80" height="30" rx="15" fill="#1A1D26"/>
+        <text x="120" y="20" font-family="sans-serif" font-size="11" fill="#A1A1AA" text-anchor="middle">Posters</text>
+
+        <rect x="170" width="90" height="30" rx="15" fill="#1A1D26"/>
+        <text x="215" y="20" font-family="sans-serif" font-size="11" fill="#A1A1AA" text-anchor="middle">Typography</text>
+
+        <rect x="270" width="85" height="30" rx="15" fill="#1A1D26"/>
+        <text x="312" y="20" font-family="sans-serif" font-size="11" fill="#A1A1AA" text-anchor="middle">Prints 3:2</text>
+      </g>
+    </g>
+
+    <!-- Gallery Grid Mockup inside browser -->
+    <g transform="translate(40, 150)">
+      <!-- Item 1 -->
+      <rect width="280" height="380" rx="12" fill="#13151D" stroke="#252A36"/>
+      <rect x="12" y="12" width="256" height="210" rx="8" fill="#201C05" stroke="#FACC15" stroke-width="1"/>
+      <circle cx="140" cy="117" r="50" fill="#FACC15" opacity="0.8"/>
+      <text x="20" y="260" font-family="'Plus Jakarta Sans', sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF">Solaris Poster Series</text>
+      <text x="20" y="284" font-family="sans-serif" font-size="13" fill="#A1A1AA">Minimalist Geometric Print</text>
+      <text x="20" y="330" font-family="monospace" font-size="16" font-weight="bold" fill="#FACC15">₹ 899</text>
+      <rect x="160" y="310" width="105" height="32" rx="8" fill="#FACC15"/>
+      <text x="212" y="330" font-family="sans-serif" font-size="11" font-weight="bold" fill="#000000" text-anchor="middle">Add to Bag</text>
+
+      <!-- Item 2 -->
+      <g transform="translate(320, 0)">
+        <rect width="280" height="380" rx="12" fill="#13151D" stroke="#FACC15" stroke-width="1.5"/>
+        <rect x="12" y="12" width="256" height="210" rx="8" fill="#161408"/>
+        <!-- Abstract wave -->
+        <path d="M 20 180 C 80 80, 160 190, 240 70" fill="none" stroke="#FDE047" stroke-width="4"/>
+        <text x="20" y="260" font-family="'Plus Jakarta Sans', sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF">Golden Horizon #04</text>
+        <text x="20" y="284" font-family="sans-serif" font-size="13" fill="#A1A1AA">Typography &amp; Gradient Wave</text>
+        <text x="20" y="330" font-family="monospace" font-size="16" font-weight="bold" fill="#FACC15">₹ 1,199</text>
+        <rect x="160" y="310" width="105" height="32" rx="8" fill="#FACC15"/>
+        <text x="212" y="330" font-family="sans-serif" font-size="11" font-weight="bold" fill="#000000" text-anchor="middle">Add to Bag</text>
+      </g>
+
+      <!-- Item 3 -->
+      <g transform="translate(640, 0)">
+        <rect width="280" height="380" rx="12" fill="#13151D" stroke="#252A36"/>
+        <rect x="12" y="12" width="256" height="210" rx="8" fill="#0C101C"/>
+        <rect x="50" y="50" width="180" height="130" fill="none" stroke="#FACC15" stroke-width="2" stroke-dasharray="8,6"/>
+        <text x="20" y="260" font-family="'Plus Jakarta Sans', sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF">Modernist Studio Print</text>
+        <text x="20" y="284" font-family="sans-serif" font-size="13" fill="#A1A1AA">Bauhaus Composition 3:2</text>
+        <text x="20" y="330" font-family="monospace" font-size="16" font-weight="bold" fill="#FACC15">₹ 749</text>
+        <rect x="160" y="310" width="105" height="32" rx="8" fill="#252A36"/>
+        <text x="212" y="330" font-family="sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Add to Bag</text>
+      </g>
+    </g>
+  </g>
+</svg>
